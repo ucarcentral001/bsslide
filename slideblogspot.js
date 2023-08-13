@@ -18,6 +18,7 @@ function changeSlide(){
   }
   
   slides[index].style.display= "block";
+  slides[index].style.padding = "0em 0";
   dot[index].classList.add("active");
   
   index++;
